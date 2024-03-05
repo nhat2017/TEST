@@ -30,7 +30,7 @@ def phan_loai_bmi(bmi):
   else:
     return "Béo phì"
 
-chieu_cao = float(input("Nhập chiều cao (m): "))
+chieu_cao = float(input("Nhập số đo chiều cao (m): "))
 can_nang = float(input("Nhập cân nặng (kg): "))
 
 bmi = tinh_bmi(chieu_cao, can_nang)
