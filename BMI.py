@@ -22,7 +22,7 @@ def phan_loai_bmi(bmi):
       str: Phân loại BMI
   """
   if bmi < 18.5:
-    return "Thiếu cân"
+    return "Thiếu cân lắm á nha ăn nhiều zô á nè"
   elif bmi < 25:
     return "Bình thường"
   elif bmi < 30:
